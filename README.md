@@ -1,6 +1,6 @@
 # Matryoshka Gaussian Splatting
 
-### [Project Page](https://ZhilinGuo.github.io/MGS) | [Paper (arXiv)](https://arxiv.org/abs/XXXX.XXXXX) | [Supplementary](https://drive.google.com/uc?export=download&id=1b2FBIG1xXrbdXJ6KiQ9RY_UH0w6BZDum) 
+### [Project Page](https://ZhilinGuo.github.io/MGS) | [Paper (arXiv)](https://arxiv.org/abs/arXiv:2603.19234) | [Supplementary](https://drive.google.com/uc?export=download&id=1b2FBIG1xXrbdXJ6KiQ9RY_UH0w6BZDum) 
 
 **[Zhilin Guo](https://zhilinguo.github.io/), [Boqiao Zhang](https://boqiaoz00.github.io/boqiao_steven_zhang.github.io/), [Hakan Aktas](https://scholar.google.com/citations?user=RxjN5w4AAAAJ&hl=en), [Kyle Fogarty](https://kyle-fogarty.github.io/), [Jeffrey Hu](https://jefequien.github.io/), [Nursena Koprucu Aslan](https://www.cst.cam.ac.uk/people/nk618), [Wenzhao Li](https://wenzhao-cam.github.io/), [Canberk Baykal](https://johnberg1.github.io/), [Albert Miao](https://albert-miao.github.io/), [Josef Bengtson](https://www.chalmers.se/en/persons/bjosef/), [Chenliang Zhou](https://chenliang-zhou.github.io/), [Weihao Xia](https://www.cst.cam.ac.uk/people/wx258), [Cristina Nader Vasconcelos](https://research.google/people/106908/), [Cengiz Oztireli](https://sites.google.com/view/cengiz-oztireli-intro/home)**
 
@@ -136,10 +136,10 @@ By default, evaluation runs at the 12 paper operating points: 100%, 90%, 80%, 70
 ## Citation
 
 ```bibtex
-@article{guo2025matryoshkagaussiansplatting,
+@article{guo2026matryoshka,
       title={Matryoshka Gaussian Splatting},
-      author={Zhilin Guo and Boqiao Zhang and Hakan Aktas and Kyle Fogarty and Jeffrey Hu and Nursena Koprucu Aslan and Wenzhao Li and Canberk Baykal and Albert Miao and Josef Bengtson and Chenliang Zhou and Weihao Xia and Cristina Nader Vasconcelos and Cengiz Oztireli},
-      journal={arXiv preprint arXiv:XXXX.XXXXX},
+      author={Guo, Zhilin and Zhang, Boqiao and Aktas, Hakan and Fogarty, Kyle and Hu, Jeffrey and Aslan, Nursena Koprucu and Li, Wenzhao and Baykal, Canberk and Miao, Albert and Bengtson, Josef and Zhou, Chenliang and Xia, Weihao and Vasconcelos, Cristina Nader and Oztireli, Cengiz},
+      journal={arXiv preprint arXiv:2603.19234},
       year={2026}
 }
 ```
