@@ -69,6 +69,8 @@ Each scene directory must contain COLMAP data: `images/` and `sparse/0/` (or `sp
 
 **Test split:** automated, every 8th image (indices 0, 8, 16, ...) for all benchmarks.
 
+> **Important**: Deep Blending scenes must [download](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip) from [3DGS paper's repository](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting), **not** from the Deep Blending paper's repository. The 3DGS version contains a single-camera-model COLMAP reconstruction (1 PINHOLE camera, 263 images for DrJohnson); the Deep Blending paper's original zip has a different reconstruction (2 PINHOLE cameras, 264 images) that will cause training to diverge.
+
 ## Training
 
 All commands are run from `matryoshka-gaussian-splatting/`. The paper configuration uses MCMC densification with 5M Gaussian capacity, 50k steps, opacity-descending ordering, and single-prefix-plus-full training objective.
